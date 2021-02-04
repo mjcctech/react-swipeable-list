@@ -1,14 +1,14 @@
 {
-  "name": "@sandstreamdev/react-swipeable-list",
+  "name": "@mjcctech/react-swipeable-list",
   "description": "Swipeable list component for React",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Sandstream Development",
     "url": "https://github.com/sandstreamdev/react-swipeable-list/graphs/contributors"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandstreamdev/react-swipeable-list"
+    "url": "https://github.com/mjcctech/react-swipeable-list"
   },
   "license": "MIT",
   "keywords": [
