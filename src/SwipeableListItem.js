@@ -174,13 +174,11 @@ class SwipeableListItem extends PureComponent {
 
       this.setDragDirection(clientX, clientY);
 
-      if (!event.cancelable) {
-        return;
-      }
-
       if (this.isSwiping()) {
         event.stopPropagation();
-        event.preventDefault();
+        if (event.cancelable) {
+          event.preventDefault();
+        }
 
         this.left = clientX - this.dragStartPoint.x;
         this.scheduleUpdatePosition();
